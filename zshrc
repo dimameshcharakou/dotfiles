@@ -99,3 +99,12 @@ _load_settings "$HOME/.zsh/configs"
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+
+export DOCKER_CERT_PATH=/Users/mesd/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pem
+
+export GOPATH=$HOME/home

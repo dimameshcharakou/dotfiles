@@ -1,3 +1,6 @@
+[user]
+	name = Dima Mescheryakov
+	email = dima.mescheryakov@gmail.com
 [init]
   templatedir = ~/.git_template
 [push]
@@ -12,6 +15,9 @@
   ci = commit -v
   co = checkout
   st = status
+  d = diff
+  ci = commit
+  b = branch
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
@@ -25,3 +31,5 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[credential]
+	helper = osxkeychain

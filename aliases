@@ -17,3 +17,14 @@ alias path='echo $PATH | tr -s ":" "\n"'
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
+
+# Jelastic
+alias j='ssh 2688@gate.appengine.flow.ch -p 3022'
+# Pitomez
+alias pitomez='ssh deploy@46.101.159.189'
+# Vponame
+alias vponame='ssh deploy@46.101.113.240'
+# EURO
+alias euro='ssh deploy@46.101.156.80'
+
+alias letscode='cd ~/code && tmux new -s code'
